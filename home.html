@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Big Banyan – Big Banyan</title>
+    <link rel="icon" type="image/png" href="img/Screenshot 2025-11-15 180605.png.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="bg-dark ps-5 mb-2 pt-2 fixed-top">
+            <p class="text-light px-5"><small id="top-text">Livraison gratuite en France à partir de 100 €</small>
+            </p>
+        </div>
+        <nav class="navbar navbar-expand-lg mt-5">
+            <div class="container">
+                <div class="col-md-3">
+                    <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#product">
+                        <span class="h5 navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img src="img/brandicon.png" alt="BigbanyaLogo" class="img-fluid" width="80">
+                    </a>
+                </div>
+                <div class="col-md-6 d-none d-lg-block text-center">
+                    <h1 class="">Home décor & Lifestyle </h1>
+                </div>
+                <div class="col-md-3 text-end">
+                    <button class="btn h5 col" type="button" data-bs-toggle="offcanvas" data-bs-target="#cart">
+                        <i class="bi bi-bag-fill"></i><sup
+                            class="fw-bold bg-danger rounded-circle text-white p-1"><small>0</small></sup>
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <div class="container d-flex justify-content-center">
+            <div class="col-lg-8">
+                <div class="input-group input-group-lg">
+                    <input type="text" class="form-control" placeholder="Find Your Product...">
+                    <button class="bg-dark" type="button">
+                        <i class="bi bi-search text-white p-3"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- offcanvas start -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="product" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Home</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Linge de maison – coton
+                        </a>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Coussins décoratifs
+                        </a>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Nappes & Art de la table
+                        </a>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Accessoires Voyage & Bien-être
+                        </a>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Inspirations
+                        </a>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Notre Univers
+                        </a>
+
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="cart" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Your Cart</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+
+            </div>
+        </div>
+    </header>
+    <section class="p-2 bg-color mt-2">
+        <div class="container text-center text-md-start">
+            <p class="px-2">Née entre la France et l’Inde, Big Banyan célèbre l’artisanat et les savoir-faire
+                traditionnels.</p>
+            <div class="row g-4 justify-content-center">
+                <img src="img/1.jpg" alt="" class="img-fluid col-md-4 col-7">
+                <img src="img/2.jpg" alt="" class="img-fluid col-md-4 col-7">
+                <img src="img/3.jpg" alt="" class="img-fluid col-md-4 col-7">
+            </div>
+            <p class="px-2 py-2">Textiles imprimés à la main, accessoires de décoration, objets du quotidien : nous
+                créons et
+                fabriquons
+                des pièces uniques et durables en collaboration avec des artisans.</p>
+        </div>
+    </section>
+    <section class="p-2 mt-2">
+        <div class=" px-5 d-none d-lg-block">
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="row g-4">
+                    <div class="col">
+                        <img src="img/coussin-1.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col">
+                        <img src="img/coussin-2.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col">
+                        <img src="img/coussin-3.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col">
+                        <img src="img/coussin-4.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col">
+                        <img src="img/coussin-5.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col">
+                        <img src="img/coussin-6.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col">
+                        <img src="img/coussin-7.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex overflow-auto d-md-none " id="imgScroll">
+            <img src="img/coussin-1.jpg" class="me-3 img-fluid" style="width:150px;">
+            <img src="img/coussin-2.jpg" class="me-3 img-fluid" style="width:150px;">
+            <img src="img/coussin-3.jpg" class="me-3 img-fluid" style="width:150px;">
+            <img src="img/coussin-4.jpg" class="me-3 img-fluid" style="width:150px;">
+            <img src="img/coussin-5.jpg" class="me-3 img-fluid" style="width:150px;">
+            <img src="img/coussin-6.jpg" class="me-3 img-fluid" style="width:150px;">
+            <img src="img/coussin-7.jpg" class="me-3 img-fluid" style="width:150px;">
+        </div>
+
+
+    </section>
+    <div class="bg-color px-5 py-2">
+        <p>Chaque création raconte une histoire — celle du geste, du temps et du voyage — pour sublimer votre intérieur
+            avec sens et élégance.</p>
+    </div>
+    <section class="px-5 my-4">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg col-6">
+                    <img src="img/nappe-deco-chic-style-vert-bordeaux-fleurs-coton-lifestyle-tendance2-3-1365x2048.jpg"
+                        class="img-fluid" alt="">
+                </div>
+                <div class="col-lg col-12 text-center text-dark py-lg-4 p-5 order-last order-lg-0 bg-color"
+                    style="background-color: #C1A798;">
+                    <h3>Une nouvelle expérience prend forme.</h3>
+                    <p>Nous peaufinons actuellement la version
+                        ordinateur de notre site – chaque détail
+                        est conçu pour offrir une navigation
+                        harmonieuse, intuitive et inspirante.</p>
+                    <p>En attendant, notre univers vous ouvre
+                        déjà ses portes sur mobile : complet,
+                        immersif et prêt à vous accueillir.</p>
+                </div>
+                <div class="col-lg col-6">
+                    <img src="img/nappe-deco-elegant-bleu-fleurs-coton-lifestyle-tendance-1365x2048.jpg"
+                        class="img-fluid" alt="">
+                </div>
+            </div>
+            <div class="row g-4 mt-2">
+                <div class="col-lg col-6">
+                    <img src="img/home-deco-lifestyle-big-banyan-tendance-cadeau-trousses-matelassee-multiusage (1).png"
+                        class="img-fluid" alt="">
+                </div>
+                <div class="col-lg col-12 text-center py-lg-4 p-5 order-last order-lg-0">
+                    <img src="img/QRcode.jpg" alt="" class="img-fluid mb-2">
+                    <h3>Scan me ! <br>
+                        www.bigbanyan.fr</h3>
+
+                </div>
+                <div class="col-md col-6">
+                    <img src="img/Untitled-design-3.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark py-3">
+        <div class="container">
+            <div class="d-flex justify-content-center">
+                <div class="accordion accordion-flush w-75" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed bg-dark text-white" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                Nos must-have
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body bg-dark text-white">
+                                <ul>
+                                    <li><a href="#">Nos It-bags</a> </li>
+                                    <li><a href="#"> Nos Accessoires déco table</a> </li>
+                                    <li><a href="#">Nos housses de couette Percale</a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed bg-dark text-white" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                Notre Univers
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body bg-dark text-white">
+                                <ul>
+                                    <li><a href="#">Histoire de la marque</a></li>
+                                    <li><a href="#">Artisanat & Savoir-faire</a> </li>
+                                    <li><a href="#">Engagements durables & éthiques </a> </li>
+                                    <li><a href="#">Inspirations & Tendances</a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed bg-dark text-white" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                Nos services
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body bg-dark text-white">
+                                <ul>
+                                    <li><a href="#"> Mon compte</a></li>
+                                    <li><a href="#">FAQ / Aide</a></li>
+                                    <li><a href="#"> Livraison & Retours</a></li>
+                                    <li><a href="#">Moyen de paiement & Sécurité</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed bg-dark text-white" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                Informations légales
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body bg-dark text-white">
+                                <ul>
+                                    <li><a href="#">Mentions légales</a></li>
+                                    <li><a href="#">CGV</a> </li>
+                                    <li><a href="#">Politique de confidentialité / RGPD</a></li>
+                                    <li><a href="#">Gestion des cookies</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed bg-dark text-white" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                Nous contacter
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body bg-dark text-white">
+                                <ul>
+                                    <li><a href="#">Nous contacter</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row text-center mt-4">
+                <p class="col m-3 text-white">Suivez-nous sur</p>
+                <ul>
+                    <li>
+                        <a class="icon-link me-2" href="#">
+                            <i class="bi bi-facebook fs-4 text-white "></i>
+                        </a>
+                        <a class="icon-link" href="#">
+                            <i class="bi bi-instagram fs-4 text-white"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row g-0">
+            <img src="img/1.jpg" alt="" class="img-fluid col-7">
+            <img src="img/2.jpg" alt="" class="img-fluid col-5">
+        </div>
+        <div class="container text-center mt-3">
+            <img src="img/bayanlogo.png" alt="" width="150">
+        </div>
+        <p class="text-light text-center mt-3"><span class="text-secondary">&copy; 2025 BigBanyan Designed & Developed
+                by </span>Amigowebster</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script>
+        // top text
+        const sentences = [
+            "Authenticité. Raffinement. Inspiration.",
+            "Artisanat indien d’exception – fait main",
+            "Livraison gratuite en France à partir de 100 €",
+        ];
+
+        let index = 0;
+
+        setInterval(() => {
+            document.getElementById("top-text").innerText = sentences[index];
+            index = (index + 1) % sentences.length; // loop back
+        }, 3000);
+
+
+        const box = document.getElementById("imgScroll");
+
+
+        box.innerHTML += box.innerHTML;
+
+        let speed = 1;
+
+        function loopScroll() {
+            box.scrollLeft += speed;
+
+
+            if (box.scrollLeft >= box.scrollWidth / 2) {
+
+                box.scrollLeft = 0;
+            }
+
+            requestAnimationFrame(loopScroll);
+        }
+
+        loopScroll();
+    </script>
+
+</body>
+
+</html>
